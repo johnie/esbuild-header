@@ -8,7 +8,14 @@
     "test": "uvu test -i input",
     "lint": "eslint *.js"
   },
-  "keywords": [],
+  "keywords": [
+    "esbuild",
+    "esbuild-plugin",
+    "header",
+    "comments",
+    "plugin",
+    "gulp-header"
+  ],
   "author": "Johnie Hjelm <johnie@hjelm.im>",
   "license": "MIT",
   "dependencies": {
