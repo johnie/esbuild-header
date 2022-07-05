@@ -1,0 +1,8 @@
+/*!
+ * esbuild-header
+ * A Esbuild plugin to add a header to file(s) after build
+ * @author Johnie Hjelm <johnie@hjelm.im>
+ * @version 1.0.0
+ * Copyright 2022 MIT licensed.
+*/
+console.log("Basic");

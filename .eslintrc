@@ -1,0 +1,19 @@
+{
+  "extends": ["airbnb", "prettier"],
+  "plugins": [],
+  "rules": {
+    "implicit-arrow-linebreak": 0
+  },
+  "settings": {
+    "import/extensions": [".js"],
+    "react": {
+      "version": "18.2.0"
+    }
+  },
+  "parserOptions": {
+    "sourceType": "module"
+  },
+  "env": {
+    "node": true
+  }
+}

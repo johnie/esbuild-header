@@ -1,0 +1,69 @@
+/*!
+ * esbuild-header
+ * A Esbuild plugin to add a header to file(s) after build
+ * @author Johnie Hjelm <johnie@hjelm.im>
+ * @version 1.0.0
+ * Copyright 2022 MIT licensed.
+*/
+let myFirstName = "Matthew";
+let myMiddleName = "Allen";
+let myLastName = "Campbell";
+let myFullName = myFirstName + " " + myMiddleName + " " + myLastName;
+const UNITED_STATES = 50;
+let numberNine = 5 + 4;
+if (myFirstName.charCodeAt(0) == 76 | myFirstName.charCodeAt(0) == 108) {
+  alert("Back of the line!");
+} else {
+  alert("Next!");
+}
+sayHello();
+function sayHello() {
+  alert("Hello World!");
+}
+checkAge("Charles", 21);
+checkAge("Abby", 27);
+checkAge("James", 18);
+checkAge("John", 17);
+let favVeggies = ["Carrots", "Corn", "Peas", "Spinach", "Broccoli", "Zucchini"];
+for (let i = 0; i < favVeggies.length; i++) {
+  console.log(favVeggies[i]);
+}
+const myOlivia = {
+  name: "Olivia",
+  age: 23
+};
+const myCody = {
+  name: "Cody",
+  age: 27
+};
+const myMegan = {
+  name: "Megan",
+  age: 29
+};
+const myMollie = {
+  name: "Mollie",
+  age: 20
+};
+const myToast = {
+  name: "Toast",
+  age: 14
+};
+const myFriends = [myOlivia, myCody, myMegan, myMollie, myToast];
+for (let i = 0; i < myFriends.length; i++) {
+  checkAge(myFriends[i].name, myFriends[i].age);
+}
+getLength("Hello World");
+function checkAge(name, age) {
+  if (age < 21) {
+    alert("Sorry " + name + ", you aren't old enough to view this page!");
+  } else {
+  }
+}
+function getLength(anyWord) {
+  let myWordLength = anyWord.length;
+  if (myWordLength % 2 == 0) {
+    console.log("The world is even!");
+  } else {
+    console.log("The world is an odd place!");
+  }
+}
