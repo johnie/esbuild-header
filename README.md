@@ -1,6 +1,4 @@
-# esbuild-header
-
-[![esbuild-header](https://github.com/johnie/esbuild-header/actions/workflows/main.yml/badge.svg?branch=main)](https://github.com/johnie/esbuild-header/actions/workflows/main.yml)
+# esbuild-header [![esbuild-header](https://github.com/johnie/esbuild-header/actions/workflows/main.yml/badge.svg?branch=main)](https://github.com/johnie/esbuild-header/actions/workflows/main.yml)
 
 > This plugin lets you add a header comment to the top of your build with [Esbuild](https://esbuild.github.io/)
 
