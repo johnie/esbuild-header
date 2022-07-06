@@ -27,4 +27,18 @@ test('Should add comment to kitchen sink example', async () => {
   assert.equal(trimResult(result), snapshot);
 });
 
+test('Should add comment to basic example with sourcemaps', async () => {
+  const result = await esbuild.build({
+    entryPoints: ['test/input/basic.js'],
+    plugins: [plugin()],
+    write: false,
+    sourcemap: true,
+  });
+  const snapshot = await readFile(
+    'test/snapshots/basic-with-sourcemaps.txt',
+    'utf8'
+  );
+  assert.equal(trimResult(result), snapshot);
+});
+
 test.run();

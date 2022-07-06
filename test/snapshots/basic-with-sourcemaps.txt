@@ -1,0 +1,9 @@
+/*!
+ * esbuild-header
+ * A Esbuild plugin to add a header to file(s) after build
+ * @author Johnie Hjelm <johnie@hjelm.im>
+ * @version 1.0.0
+ * Copyright 2022 MIT licensed.
+*/
+console.log("Basic");
+//# sourceMappingURL=data:application/json;base64,ewogICJ2ZXJzaW9uIjogMywKICAic291cmNlcyI6IFsidGVzdC9pbnB1dC9iYXNpYy5qcyJdLAogICJzb3VyY2VzQ29udGVudCI6IFsiLyohXG4gKiBlc2J1aWxkLWhlYWRlclxuICogQSBFc2J1aWxkIHBsdWdpbiB0byBhZGQgYSBoZWFkZXIgdG8gZmlsZShzKSBhZnRlciBidWlsZFxuICogQGF1dGhvciBKb2huaWUgSGplbG0gPGpvaG5pZUBoamVsbS5pbT5cbiAqIEB2ZXJzaW9uIDEuMC4wXG4gKiBDb3B5cmlnaHQgMjAyMiBNSVQgbGljZW5zZWQuXG4qL1xuY29uc29sZS5sb2coJ0Jhc2ljJyk7XG4iXSwKICAibWFwcGluZ3MiOiAiQUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQU9BLFFBQVEsSUFBSSxPQUFPOyIsCiAgIm5hbWVzIjogW10KfQo=
